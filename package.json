@@ -1,0 +1,14 @@
+{
+  "type": "module",
+  "scripts": {
+    "resvg": "node src/resvg.mjs",
+    "canvas": "node src/canvas.mjs",
+    "playwright": "node src/playwright.mjs"
+  },
+  "dependencies": {
+    "@resvg/resvg-js": "^2.1.0",
+    "@whatwg-node/fetch": "^0.4.2",
+    "canvas": "^2.10.1",
+    "playwright": "^1.25.2"
+  }
+}
