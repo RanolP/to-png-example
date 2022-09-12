@@ -1,6 +1,6 @@
 # to-png-example
 
-playwright랑 resvg로 svg를 png로 변환하는 예제
+playwright랑 resvg로 html/svg를 png로 변환하는 예제
 
 ## playwright
 
