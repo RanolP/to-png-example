@@ -13,6 +13,17 @@ $ npm run playwright
 3356 ms
 ```
 
+## playwright-svg
+
+```sh
+$ npm run playwright-svg
+
+> playwright-svg
+> node src/playwright-svg.mjs
+
+3562 ms
+```
+
 ## resvg
 
 ```sh
@@ -25,3 +36,10 @@ $ npm run resvg
 (Use `node --trace-warnings ...` to show where the warning was created)
 474 ms
 ```
+
+## 성능 비교
+
+- playwright는 수행하는 작업과 무관하게 약 3 초의 오버헤드가 있습니다.
+  브라우저를 켜고, 연결을 수립하는 등의 시간이 걸리기 때문입니다.
+- resvg는 1 초 이내의 시간에 작업을 수행합니다.
+  정확히 SVG를 그린다는 기능만 수행하면 되기 때문입니다.

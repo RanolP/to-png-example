@@ -2,7 +2,8 @@
   "type": "module",
   "scripts": {
     "resvg": "node src/resvg.mjs",
-    "playwright": "node src/playwright.mjs"
+    "playwright": "node src/playwright.mjs",
+    "playwright-svg": "node src/playwright-svg.mjs"
   },
   "dependencies": {
     "@resvg/resvg-js": "^2.1.0",
